@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A demo of StuCampus PDf reader</title>
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/reader.css" />
+        <link rel="stylesheet" type="text/css" href="css/sidebar.css" />
+        <script type="text/javascript" charset="utf-8" src="js/plugins/jquery-1.7.2.min.js" ></script>
+        <script type="text/javascript" charset="utf-8" src="js/plugins/jqScroll.js" ></script>
+        <script type="text/javascript" charset="utf-8" src="js/flowBox.js" ></script>
+    </head>
+
+    <body>
+        <div id="sidebar">
+            <div id="arrow">v</div>
+            <div id="toolbar">
+                <button class="icon zoom-in" id="zoom-in"></button>
+                <button class="icon zoom-out" id="zoom-out"></button>
+                <button class="icon arrow-up" id="arrow-up"></button>
+                <button class="icon arrow-down" id="arrow-down"></button>
+            </div>
+        </div>
+        <div id="current-page-no">1</div>
+        <!-- <div class="title">
+        {{ title }}
+        </div> -->
+        <div id="pdf-board">
+<!-- Emmet:(div#page-$.page>a[name="page-$"].page-hash#page-hash-$+img[src="images/pdfs/$.png"].piece+span.page-no#page-no-${$})*6-->
+            <div id="page-1" class="page">
+                <a href="" name="page-1" class="page-hash" id="page-hash-1"></a>
+                <img src="images/pdfs/1.png" alt="" class="piece">
+                <span class="page-no" id="page-no-1">1</span>
+            </div>
+            <div id="page-2" class="page">
+                <a href="" name="page-2" class="page-hash" id="page-hash-2"></a>
+                <img src="images/pdfs/2.png" alt="" class="piece">
+                <span class="page-no" id="page-no-2">2</span>
+            </div>
+            <div id="page-3" class="page">
+                <a href="" name="page-3" class="page-hash" id="page-hash-3"></a>
+                <img src="images/pdfs/3.png" alt="" class="piece">
+                <span class="page-no" id="page-no-3">3</span>
+            </div>
+            <div id="page-4" class="page">
+                <a href="" name="page-4" class="page-hash" id="page-hash-4"></a>
+                <img src="images/pdfs/4.png" alt="" class="piece">
+                <span class="page-no" id="page-no-4">4</span>
+            </div>
+            <div id="page-5" class="page">
+                <a href="" name="page-5" class="page-hash" id="page-hash-5"></a>
+                <img src="images/pdfs/5.png" alt="" class="piece">
+                <span class="page-no" id="page-no-5">5</span>
+            </div>
+            <div id="page-6" class="page">
+                <a href="" name="page-6" class="page-hash" id="page-hash-6"></a>
+                <img src="images/pdfs/6.png" alt="" class="piece">
+                <span class="page-no" id="page-no-6">6</span>
+            </div>
+        </div>
+    </body>
+
+</html>

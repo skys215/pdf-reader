@@ -1,0 +1,72 @@
+/* toolbar */
+#toolbar{
+    display:none;
+    text-align:center;
+    z-index: 9999;
+}
+.zoom-in{
+    background: url(../images/zoom-in.png);
+}
+
+.zoom-out{
+    background: url(../images/zoom-out.png);
+}
+
+.arrow-up{
+    background: url(../images/arrow-up.png);
+}
+
+.arrow-down{
+    background: url(../images/arrow-down.png)
+}
+
+.zoom_fit{
+    background: url(../images/fit.png);
+}
+.zoom_ori{
+    background: url(../images/ori.png);
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin: 10px 0;
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+
+/* flowBox(index) */
+#flowBox{
+	background-color: #e7e5e5;
+	width:100%;
+    overflow:hidden;
+}
+
+#flowBox  ul{
+	margin:0 0;
+	padding:0;
+	text-align:center;
+	padding-top: 7px;
+}
+#flowBox li.flowBox_item{
+	padding-bottom:7px;
+	list-style:none inside none;
+	display:block;
+	font-size: 12px;
+    line-height: 12px;
+	color:#4f593c;
+}
+#flowBox div.flowBox_title{
+	background-color: #6BEF76;
+	padding:7px 0;
+	text-align:center;
+}
+   li.flowBox_item a:link {color:#4f593c;font-weight: bold;text-decoration:none;}
+li.flowBox_item a:visited {color:#4f593c;font-weight: bold;text-decoration:none;}
+  li.flowBox_item a:hover {color:#4f593c;font-weight: bold;text-decoration:underline;}
+ li.flowBox_item a:active {color:#4f593c;font-weight: bold;text-decoration:none;}
